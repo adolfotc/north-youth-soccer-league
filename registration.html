@@ -8,13 +8,10 @@
     <link rel="stylesheet" href="css/formulario.css">
     <title>Northside Youth Soccer League</title>
 </head>
-<div id="portada1">
-  
-  <h2>Northside Youth Soccer League</h2> 
-</div>
+
 <div> 
-  <nav  id="contenido"> 
-      <div id="padre">
+  <nav class="contenido"> 
+      <div  class="contenido" id="padre">
           <p><a href="Index.html">HOME</a></p> 
           <p><a href="About_NYSL.html">ABOUT NYSL</a></p>
           <p><a href="Rules.html">RULES</a></p>
@@ -24,58 +21,64 @@
       </div>
   </nav>
 </div>    
-<div id="logo1">
-  <img src="images/nysl_logo.png" alt="logotipo NYSL" width="150">
-</div>  
+  <div class="portada1">
+          <div>
+              <h1>Northside Youth Soccer League</h1> 
+          </div>
 
-<div id="general">
-<h1>Formulario de Registro</h1>
+          <div class="logo1"><img src="images/nysl_logo.png" alt="logotipo NYSL" width="150">
+          </div>
 
-<form name="formulario" action="show_data.html" method="get">
-<div>  
-  <label for='name'>
-  <span>Nombre del Jugador</span>
-  <input type='text' size='36' id='name' name='Nombre' placeholder='Nombre'>
-</label>
+<div class="general">
+        <div>
+          <h1 class="general__color">Formulario de Registro</h1>
+        </div><br>
+      <div> 
+            <form name="formulario" action="show_data.html" method="get">
+ 
+            <label for='name'>
+            <span>Nombre del Jugador</span>
+            <input type='text' size='36' id='name' name='Nombre' placeholder='Nombre'>
+            </label>
 
- <label for='apellido'>
-  <span>Apellido</span>
-  <input type='text' size='50' id='apellido' name='apellido' placeholder='Apellido'>
-  </label>
-</div><br>
+            <label for='apellido'>
+            <span>Apellido</span>
+            <input type='text' size='50' id='apellido' name='apellido' placeholder='Apellido'>
+            </label>
+      </div><br>
 
-<div>
-  <label for='direccion'>
-  <span>Dirección</span>
-  <input type='text'  size='78' id='direccion' name='Calle&nbsp;Numero&nbsp;Localidad' placeholder='Calle, Número, Localidad'>
-</label>  
-</div><br>
+      <div>
+            <label for='direccion'>
+            <span>Dirección</span>
+            <input type='text'  size='78' id='direccion' name='Calle&nbsp;Numero&nbsp;Localidad' placeholder='Calle, Número, Localidad'>
+            </label>  
+            </div><br>
 
-<div>  
-  <label for='ciudad'>
-  <span>Ciudad</span>
-  <input type='text' size='42' id='ciudad' name='Ciudad' placeholder='Ciudad'>
-</label>
+      <div>  
+            <label for='ciudad'>
+            <span>Ciudad</span>
+            <input type='text' size='42' id='ciudad' name='Ciudad' placeholder='Ciudad'>
+            </label>
 
- <label for='ZIP'>
-  <span>Código Postal</span>
-  <input type='text' size='20' id='ZIP' name='ZIP' placeholder='ZIP'>
-  </label>
-</div><br>
+            <label for='ZIP'>
+            <span>Código Postal</span>
+            <input type='text' size='20' id='ZIP' name='ZIP' placeholder='ZIP'>
+            </label>
+      </div><br>
 
-<div>  
-  <label for='nacimiento'>
-  <span>Fecha de nacimiento</span>
-  <input type='text' sixe='25' id='nacimiento' name='dia&nbsp;mes&nbsp;a&ntildeño' placeholder='dd/mm/aaaa'>
-</label>
+      <div>  
+            <label for='nacimiento'>
+            <span>Fecha de nacimiento</span>
+            <input type='text' sixe='25' id='nacimiento' name='dia&nbsp;mes&nbsp;a&ntildeño' placeholder='dd/mm/aaaa'>
+            </label>
 
- <label>
-    <spam>Género:<spam><spam>Mujer</spam>
-    <input type="radio" name="Genero" value="Mujer">
-     <spam>Hombre</spam>
-    <input type="radio" name="Genero" value="Hombre">
-</label>
-</div><br>
+      <label>
+            <spam>Género:<spam><spam>Mujer</spam>
+            <input type="radio" name="Genero" value="Mujer">
+            <spam>Hombre</spam>
+            <input type="radio" name="Genero" value="Hombre">
+            </label>
+      </div><br>
 
 <div>
  <label>
@@ -188,7 +191,7 @@ Al firmar a continuación, acuerdo y autorizo lo anterior. Además, al firmar 
   <input type="submit" value="Enviar formulario"/>
 </div>
 </form>
-</div>
+</div></div>
 
 </body>
 </html>
